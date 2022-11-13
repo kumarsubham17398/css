@@ -1,0 +1,40 @@
+body{
+	
+    background-color: #cecba9;
+   }
+   img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    grid-template-columns:
+    repeat(auto-fill, 10px)
+    repeat(2, minmax(min-content, max-content));
+    background-repeat: repeat-x;
+  }
+  * {
+    text-align: center;
+    color: blue;
+  }
+  p.center {
+    text-align: center;
+    color: red;
+  }
+  button:hover {
+    color: blue;
+  }
+  #firstname {
+    background-color: yellow;
+  }
+  div {
+    
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    height: 80px;
+  }
+  #w3r {
+    color: red; 
+    background-color: aliceblue; 
+    }

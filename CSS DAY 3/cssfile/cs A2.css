@@ -1,0 +1,40 @@
+div {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 130%;
+    overflow: scroll;
+  }
+  .light {
+    opacity: 0.2; 
+  }
+  .medium {
+    opacity: 0.5; 
+  }
+  .heavy {
+    opacity: 0.9; 
+  }
+  body {  
+    font-size: 100%;  
+}  
+h1 { color: red; }  
+h2 { color: #9000A1; }   
+p { color:rgb(0, 220, 98); }    
+div {  
+    width: 100px;  
+    height: 100px;  
+    background: red;  
+    -webkit-animation: myfirst 6s; /* Chrome, Safari, Opera */  
+    animation: myfirst 5s;  
+}  
+/* Chrome, Safari, Opera */  
+@-webkit-keyframes myfirst {  
+    from {background: red;}  
+    to {background: green;}  
+}  
+/* Standard syntax */  
+@keyframes myfirst {  
+    from {background: red;}  
+    to {background: green;}  
+}  
+  
+  
